@@ -1,0 +1,8 @@
+TXW81x_SoftwareDesignDoc_V2.0.2：
+1.TXW81x RTC使用指南修改软件 API 说明
+
+TXW81x_SoftwareDesignDoc_V2.0.1：
+1.TXW81x 认证测试指南更新新增自适应测试AT指令说明
+
+TXW81x_SoftwareDesignDoc_V2.0.0：
+1.TXW81x软件开发指南初版

@@ -1,0 +1,1013 @@
+[0]40 00 57 00 a3 44 12 a0
+[0]28 f2 00 00 00 00 00 00
+[0]00 00 00 00 00 00 00 00
+[0]47 87 81 16 88 35 66 a6
+[0]8a a5 89 88 9e 57 00 00
+[0]80 00 bc 02 a0 ca 00 00
+[0]00 1d 00 00 0e 0a 00 00
+[0]00 00 00 00 09 30 03 00
+[0]00 00 00 00 08 84 40 08
+[0]84 40 08 84 40 08 84 03
+[0]08 3f 1e e8 81 5e f8 c4
+[0]3f f8 83 0f f8 f5 fe f6
+[0]ff 00 f8 f7 0f 00 ee fe
+[0]ee 00 00 f0 ea 00 00 1d
+[0]00 03 b2 00 00 00 00 07
+[0]00 00 00 00 00 73 0a 00
+[0]78 50 00
+[0]cpu   clk: 120 
+[0]flash clk: 80 
+[0]psram clk: 0 
+[0]validity: 1579e00d
+[0][OTA_MSG] OTA_NUM:0  ota_version:31060       run_addr:0
+
+** hgSDK-v2.5.0.7-31060, app-0, build time:Oct 25 2024 15:55:12 **
+**   libcore v2.5.0.7-31060, build time:Oct 21 2024 15:49:37
+**   libnetutils v2.5.0.7-31060, build time:Oct 21 2024 15:49:52
+**   libcommon v2.5.0.7-31060, build time:Oct 21 2024 15:49:43
+**   libosal v2.5.0.7-31060, build time:Oct 21 2024 15:49:36
+**   libatcmd v2.5.0.7-31060, build time:Oct 21 2024 15:49:43
+**   liblmac v2.5.0.7-31060, build time:Oct 21 2024 15:50:08
+**   libwifi v2.5.0.7-31060, build time:Oct 21 2024 15:50:18
+------------------------------------------------------------------
+[0] ------- system restart fault -----------
+[0] ---------------------------------------
+[1]freemem:160596
+[1]custom_mem_init:2000d258
+[2]custom mem sram:61440
+[2]skbpool init, total:45656 (0x200389a8~0x20043c00), max per:80%
+[3]syscfg_read OK!
+[3]old cfg_ver:259
+[6]lmac rx info size:36
+[6]GAP0 : 200345a8
+[6]GAP1 : 200389a0
+[6]lmac rx buff:200345b0, size:17392, hw rx buff size:11368, ampdu:7, max subfrm:3
+[7]lmac priv: 2001d268
+[8]lmac tx  : 2001d628
+[8]lmac rx  : 2001e7f4
+[8]lmac ble rx: 00000000
+[9]pack:7, bios_id:3
+[9]use AMPM DPD!
+[9]verf:0x6, ibpt:0xa, ibct:0xa, iref:0x6
+[10]verfvco_trim:0x8, verfcp_trim:0x6, verfdiv_trim:0x5
+[10]verfdsm_trim:0x4, verfvcc25_trim:0x1
+[11]da cap:7, da gain:1
+[14]txdcoc from:1, i:14, q:10
+[14]tx imb from:1, pm:51, gm:9
+[15]rx dcoc from:1
+[15]g:0, ana:2048, i:2, q:0
+[15]g:1, ana:2112, i:4, q:2
+[16]g:2, ana:2112, i:4, q:2
+[16]g:3, ana:2112, i:8, q:6
+[16]g:4, ana:2112, i:7, q:7
+[17]g:5, ana:2112, i:6, q:6
+[17]g:6, ana:2112, i:6, q:6
+[17]g:7, ana:2112, i:3, q:8
+[18]rx imb from:1
+[18]g:0, 8174, 4077
+[18]g:1, 8190, 4086
+[19]g:2, 8174, 4078
+[19]g:3, 0, 4087
+[19]g:4, 0, 4088
+[19]g:5, 8176, 4080
+[20]g:6, 8170, 4079
+[20]g:7, 0, 4088
+[20]time offset:0, 29
+[20]!!! rf pack err !!!
+[21]lmac test: 2001efa0
+[21]lmac_bgn_lo_freq_set: 2432
+[23]set rts_threshold =2304
+[23]lmac set mac0 addr:46:87:81:35:88:d8
+[24]*** open ADC success!
+[24]*** add success: ADC channel cnt = 1, name:257
+[25]*** add success: ADC channel cnt = 2, name:258
+[25]*** add success: ADC channel cnt = 3, name:262
+[26]*** delete success: ADC channel cnt = 2
+[29]lmac_bgn_lo_freq_set: 2412
+[31]lmac_bgn_lo_freq_set: 2412
+[32]set rts_threshold =1600
+[32]set ac= 0 aifs= 2 cw_min= 15 cwmax= 1023 txop= 79
+[33]set ac= 1 aifs= 6 cw_min= 15 cwmax= 1023 txop= 79
+[34]set ac= 2 aifs= 1 cw_min= 7 cwmax= 15 txop= 128
+[34]set ac= 3 aifs= 1 cw_min= 3 cwmax= 7 txop= 65
+[35]set ac= 0 aifs= 2 cw_min= 15 cwmax= 1023 txop= 79
+[36]set ac= 1 aifs= 6 cw_min= 15 cwmax= 1023 txop= 79
+[36]set ac= 2 aifs= 1 cw_min= 7 cwmax= 15 txop= 128
+[37]set ac= 3 aifs= 1 cw_min= 3 cwmax= 7 txop= 65
+[38]lmac_bgn_lo_freq_set: 2437
+[39]inteface1: start scanning ...
+[40]vif1 state WPA_DISCONNECTED -> WPA_SCANNING
+[41]lmac dbg!!!mac addr err:00:00:00:00:00:00
+[41]Func:lmac_bgn_tx_check Line:784 LR=0x1802b0c4
+[240]lmac dbg!!!mac addr err:00:00:00:00:00:00
+[240]Func:lmac_bgn_tx_check Line:784 LR=0x1802b0c4
+PBðܔáfSþ                  ÌÑ:Ê"ô,ô[,×]TÐrS¢p're`®,f`\å$ՎkƍU¾Ճ*æ7ÌÖ^±ˑ^°Ñ\Û|̌ÎÕðÓp're`Òñ9ïAõ¼£êSFl4        ô[,×] &`
+[2117]lmac set mac0 addr:46:87:81:35:88:d8{ç¯ӳ{n©XðN44áýêEڀkz¾VRFl4[é$9_&\¬`{ç¯ӳ{n©XðN44áýêEڀkz¾VR              <
+[2118]lmac_bgn_lo_freq_set: 2412՝§Ô@<åùmºîò[Ǖ?~ }
+[2120]lmac set mac0 addr:46:87:81:35:88:d8
+[2120]lmac_bgn_lo_freq_set: 2412
+[2122]ieee80211_ap_ioctl:164::set channel 1
+[2122]set ac= 0 aifs= 1 cw_min= 1 cwmax= 3 txop= 0
+[2123]set ac= 1 aifs= 1 cw_min= 1 cwmax= 3 txop= 0
+[2123]set ac= 2 aifs= 1 cw_min= 1 cwmax= 3 txop= 0
+[2124]set ac= 3 aifs= 1 cw_min= 1 cwmax= 3 txop= 0
+[2125]vif2 state WPA_DISCONNECTED -> WPA_COMPLETED
+[2127]add w0 interface!
+JPG start
+[2128]csi_test start,iic init
+[2129]iic init finish,sensor reset & set sensor clk into 6M
+hgdvp_set_baudrate:clock:480000000
+[2133]set sensor finish ,Auto Check sensor id
+[2133]SID: ff, a0, 42, 43,0
+[2134]SID: ff, bb, 66, 67,f0
+[2135]SID: ff, 10, 42, 43,f1
+[2136]SID: ff, 9d, 42, 43,f0
+[2136]preset table num:2
+[2137]SID: ff, c0, 62, 63,0
+[2138]SID: 20, 3a, dc, dd,fc
+[2138]SID: 20, 37, dc, dd,fc
+[2139]SID: 20, 38, dc, dd,fc
+[2140]SID: a6, a6, dc, dd,fd
+[2140]id =a6 num:8 
+[2140]Auto Check sensor id finish
+[2141]mclk:24000000MHz
+hgdvp_set_baudrate:clock:480000000
+[2141]init:1804f340 u8Addrbytnum:1,u8Databytnum:1
+[2142]SENSER....init
+[2182]init table num:308
+[2183]SENSR ident ok:480*480
+[2183]csi init start  --
+[2183]csi set size ====>480*480
+[2184]csi dvp_size_set
+[2184]csi IRQ init
+[2184]dvpirq_register:1 1801a4e0  1801a4e0
+[2185]dvpirq_register:0 1801a4cc  1801a4cc
+[2185]vppirq_register:0 1801a2fc  1801a2fc
+[2186]vppirq_register:1 1801a640  1801a640
+[2186]vppirq_register:2 1801a2f8  1801a2f8
+[2187]vppirq_register:3 1801a49c  1801a49c
+[2187]vppirq_register:4 1801a4b0  1801a4b0
+[2188]vppirq_register:5 1801a2e8  1801a2e8
+[2188]vppirq_register:6 1801a2d8  1801a2d8
+[2189]vppirq_register:7 1801a2c8  1801a2c8
+[2189]csi IRQ init finish,start get data
+eloop_init:287::start
+user_eloop_run:309::run
+[2193]dns sock :2
+[test] init tcp server: port: 5007
+[2194]ota num:0 version:31060
+g_sensor_init start,iic init:200004a0
+init g_sensor,check id
+SID: ff, 13, 4e, 4f,1
+SID: 26, 26, 32, 33,70
+id =26 num:1 
+init table num:22
+gsensor_ok
+adc_open_ok
+[2202]*** add success: ADC channel cnt = 3, name:2
+adc_add_channel_ok
+> udp_user_data_init
+                    udp port:7099
+enter usr_udp_create_server_test
+udp server ok:4
+port:7070       fd:5
+[2207]set_video_track:364
+[2207]set_video_track source->track[t]:0        rtp:200290B0
+[2208]set_video_track:364
+[2208]set_video_track source->track[t]:0        rtp:200296D4
+[2209]no this event(20005)...
+[2209]scan down.......
+vol_f:3652 
+vol_f:3652 
+vol_f:3650 
+vol_f:3650 
+[3209]custom mem sram:61440
+[3209]freemem:42824
+vol_f:3650 
+vol_f:3650 
+vol_f:3650 
+vol_f:3650 
+[4209]custom mem sram:61440
+[4209]freemem:42824
+vol_f:3648 
+vol_f:3648 
+vol_f:3648 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 36
+    freq:2412, bg_rssi:-83
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:1, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:41, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3648 
+[5209]custom mem sram:61440
+[5209]freemem:42824
+vol_f:3646 
+vol_f:3646 
+vol_f:3646 
+vol_f:3644 
+[6209]custom mem sram:61440
+[6209]freemem:42824
+vol_f:3644 
+vol_f:3644 
+vol_f:3644 
+vol_f:3644 
+[7209]custom mem sram:61440
+[7209]freemem:42824
+vol_f:3644 
+vol_f:3642 
+vol_f:3642 
+vol_f:3642 
+[8209]ip:101a8c0  freemem:42824
+[8209]custom mem sram:61440
+[8209]freemem:42824
+vol_f:3642 
+vol_f:3642 
+vol_f:3642 
+vol_f:3640 
+[9210]custom mem sram:61440
+[9210]freemem:42824
+vol_f:3640 
+vol_f:3640 
+vol_f:3640 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 39
+    freq:2412, bg_rssi:-84
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:4, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:4, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3640 
+[10210]custom mem sram:61440
+[10210]freemem:42824
+vol_f:3640 
+vol_f:3638 
+vol_f:3638 
+vol_f:3640 
+[11210]custom mem sram:61440
+[11210]freemem:42824
+vol_f:3640 
+vol_f:3640 
+vol_f:3640 
+vol_f:3638 
+[12210]custom mem sram:61440
+[12210]freemem:42824
+vol_f:3640 
+vol_f:3640 
+vol_f:3638 
+vol_f:3638 
+[13210]custom mem sram:61440
+[13210]freemem:42824
+vol_f:3638 
+vol_f:3638 
+vol_f:3638 
+vol_f:3636 
+[14210]ip:101a8c0  freemem:42824
+[14210]custom mem sram:61440
+[14210]freemem:42824
+vol_f:3636 
+vol_f:3638 
+vol_f:3636 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 42
+    freq:2412, bg_rssi:-83
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:3, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:3, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3636 
+[15211]custom mem sram:61440
+[15211]freemem:42824
+vol_f:3636 
+vol_f:3634 
+vol_f:3636 
+vol_f:3636 
+[16211]custom mem sram:61440
+[16211]freemem:42824
+vol_f:3636 
+vol_f:3636 
+vol_f:3636 
+vol_f:3634 
+[17211]custom mem sram:61440
+[17211]freemem:42824
+vol_f:3634 
+vol_f:3634 
+vol_f:3636 
+vol_f:3636 
+[18211]custom mem sram:61440
+[18211]freemem:42824
+vol_f:3634 
+vol_f:3634 
+vol_f:3632 
+vol_f:3632 
+[19211]custom mem sram:61440
+[19211]freemem:42824
+vol_f:3632 
+vol_f:3634 
+vol_f:3632 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 44
+    freq:2412, bg_rssi:-83
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:0, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:0, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3634 
+[20211]ip:101a8c0  freemem:42824
+[20211]custom mem sram:61440
+[20211]freemem:42824
+vol_f:3634 
+vol_f:3632 
+vol_f:3632 
+vol_f:3632 
+[21212]custom mem sram:61440
+[21212]freemem:42824
+vol_f:3632 
+vol_f:3632 
+vol_f:3632 
+vol_f:3632 
+[22212]custom mem sram:61440
+[22212]freemem:42824
+vol_f:3632 
+vol_f:3632 
+vol_f:3632 
+vol_f:3632 
+[23212]custom mem sram:61440
+[23212]freemem:42824
+vol_f:3632 
+vol_f:3630 
+vol_f:3630 
+vol_f:3630 
+[24212]custom mem sram:61440
+[24212]freemem:42824
+vol_f:3632 
+vol_f:3630 
+vol_f:3630 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 45
+    freq:2412, bg_rssi:-83
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:3, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:3, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3630 
+[25212]custom mem sram:61440
+[25212]freemem:42824
+vol_f:3630 
+vol_f:3630 
+vol_f:3630 
+vol_f:3628 
+[26212]ip:101a8c0  freemem:42824
+[26212]custom mem sram:61440
+[26212]freemem:42824
+vol_f:3630 
+vol_f:3628 
+vol_f:3628 
+vol_f:3628 
+[27213]custom mem sram:61440
+[27213]freemem:42824
+vol_f:3630 
+vol_f:3628 
+vol_f:3628 
+vol_f:3628 
+[28213]custom mem sram:61440
+[28213]freemem:42824
+vol_f:3628 
+vol_f:3628 
+vol_f:3628 
+vol_f:3628 
+[29213]custom mem sram:61440
+[29213]freemem:42824
+vol_f:3628 
+vol_f:3628 
+vol_f:3628 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 46
+    freq:2412, bg_rssi:-84
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:3, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:3, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3628 
+[30213]custom mem sram:61440
+[30213]freemem:42824
+vol_f:3626 
+vol_f:3628 
+vol_f:3628 
+vol_f:3628 
+[31213]custom mem sram:61440
+[31213]freemem:42824
+vol_f:3626 
+vol_f:3626 
+vol_f:3626 
+vol_f:3626 
+[32213]ip:101a8c0  freemem:42824
+[32213]custom mem sram:61440
+[32213]freemem:42824
+vol_f:3626 
+vol_f:3628 
+vol_f:3628 
+vol_f:3626 
+[33214]custom mem sram:61440
+[33214]freemem:42824
+vol_f:3626 
+vol_f:3626 
+vol_f:3626 
+vol_f:3626 
+[34214]custom mem sram:61440
+[34214]freemem:42824
+vol_f:3626 
+vol_f:3624 
+vol_f:3624 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 47
+    freq:2412, bg_rssi:-84
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:3, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:3, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3626 
+[35214]custom mem sram:61440
+[35214]freemem:42824
+vol_f:3626 
+vol_f:3626 
+vol_f:3626 
+vol_f:3624 
+[36214]custom mem sram:61440
+[36214]freemem:42824
+vol_f:3624 
+vol_f:3624 
+vol_f:3624 
+vol_f:3626 
+[37214]custom mem sram:61440
+[37214]freemem:42824
+vol_f:3626 
+vol_f:3626 
+vol_f:3624 
+vol_f:3624 
+[38214]ip:101a8c0  freemem:42824
+[38214]custom mem sram:61440
+[38214]freemem:42824
+vol_f:3624 
+vol_f:3624 
+vol_f:3626 
+vol_f:3624 
+[39215]custom mem sram:61440
+[39215]freemem:42824
+vol_f:3620 
+vol_f:3622 
+vol_f:3624 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 49
+    freq:2412, bg_rssi:-84
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:10, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:10, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3620 
+[40215]custom mem sram:61440
+[40215]freemem:42824
+vol_f:3624 
+vol_f:3624 
+vol_f:3624 
+vol_f:3624 
+[41215]custom mem sram:61440
+[41215]freemem:42824
+vol_f:3622 
+vol_f:3624 
+vol_f:3624 
+vol_f:3624 
+[42215]custom mem sram:61440
+[42215]freemem:42824
+vol_f:3624 
+vol_f:3624 
+vol_f:3622 
+vol_f:3622 
+[43215]custom mem sram:61440
+[43215]freemem:42824
+vol_f:3624 
+vol_f:3624 
+vol_f:3624 
+vol_f:3624 
+[44215]ip:101a8c0  freemem:42824
+[44215]custom mem sram:61440
+[44215]freemem:42824
+vol_f:3622 
+vol_f:3622 
+vol_f:3622 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 49
+    freq:2412, bg_rssi:-84
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:1, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:1, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3624 
+[45216]custom mem sram:61440
+[45216]freemem:42824
+vol_f:3618 
+vol_f:3624 
+vol_f:3622 
+vol_f:3622 
+[46216]custom mem sram:61440
+[46216]freemem:42824
+vol_f:3620 
+vol_f:3620 
+vol_f:3622 
+vol_f:3620 
+[47216]custom mem sram:61440
+[47216]freemem:42824
+vol_f:3622 
+vol_f:3620 
+vol_f:3620 
+vol_f:3622 
+[48216]custom mem sram:61440
+[48216]freemem:42824
+vol_f:3620 
+vol_f:3620 
+vol_f:3620 
+vol_f:3620 
+[49216]custom mem sram:61440
+[49216]freemem:42824
+vol_f:3620 
+[49557]lmac_bgn_add_sta: if:1, aid1, addr:32:ec:a9:e6:9e:fb[49558]rc_init: type= 2 mcs_mask= 0x3cc
+
+[49558]inteface2: sta 32:ec:a9:e6:9e:fb connected
+[49559]user_sta_add:32 ec a9 e6 9e fb
+[49693]send DHCP_OFFER ...
+[49694]Next IP: 192.168.1.101
+[49694]Assign IP 192.168.1.100 for 32:ec:a9:e6:9e:fb, flags=0 (next:192.168.1.101)
+vol_f:3618 
+[49708]send DHCP_ACK ...
+[49709]Assign IP 192.168.1.100 for 32:ec:a9:e6:9e:fb, flags=0 (next:192.168.1.101)
+[49711]IP Pool:
+[49712]    ip:192.168.1.100 - 32:ec:a9:e6:9e:fb
+vol_f:3618 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 50
+    freq:2412, bg_rssi:-84
+    cca: -66, -61, -56
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:29, total tx:12, retry:0, tx lost:0, tx err:0
+    rx: frms:40, data:17
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+sta:32:ec:a9:e6:9e:fb, aid:1, rssi:-31, evm:-22, tx frm type:*0, tx mcs:*2, freq offset:6842
+    ifidx:1, MAC:46:87:81:35:88:d8
+
+--------------------
+vol_f:3618 
+[50216]ip:101a8c0  freemem:42308
+[50216]custom mem sram:61440
+[50217]freemem:42308
+vol_f:3620 
+vol_f:3612 
+vol_f:3620 
+vol_f:3618 
+[51217]custom mem sram:61440
+[51217]freemem:42308
+vol_f:3618 
+vol_f:3616 
+vol_f:3620 
+vol_f:3618 
+[52217]custom mem sram:61440
+[52217]freemem:42308
+vol_f:3614 
+vol_f:3618 
+vol_f:3618 
+vol_f:3618 
+[53217]custom mem sram:61440
+[53217]freemem:42308
+do_accept  477
+do_accept c:2002A124
+do_read:372
+===========OPTIONS=============
+RTSP/1.0 200 OK
+CSeq: 1
+Public: DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE
+
+
+do_read:372
+===========DESCRIBE=============
+[53363]live_get_sdp:88  path:/webcam
+[53363]live_get_sdp:95
+[53364]À source->track[t]:200290B0      rtp:200292A8
+[53364]live_get_sdp:119
+RTSP/1.0 200 OK
+CSeq: 2
+Content-Base: rtsp://192.168.1.1:7070/webcam/
+Content-Type: application/sdp
+Content-Length: 122
+
+
+rtsp_teardown:147
+rtsp_release_event:132
+del_session session:2002A794
+do_read:372
+===========SETUP=============
+[53381]jpeg_stream_init:713
+[53382]opcode_func:270
+[53383]src:2002A890
+[53383]src open_ref:1
+RTSP/1.0 200 OK
+CSeq: 3
+Transport: RTP/AVP;unicast;client_port=20318-20319;server_port=53796-53797
+Session: 82838485868788898A8B8C8D8E8F90
+
+
+[53392]rtsp_live_thread:23
+do_read:372
+===========PLAY=============
+RTSP/1.0 200 OK
+CSeq: 4
+Session: 82838485868788898A8B8C8D8E8F90
+
+
+$#vol_f:3618 
+$#$#$#$#vol_f:3612 
+$#$#$#$#vol_f:3616 
+$#$#$#$#vol_f:3618 
+[54217]custom mem sram:5436
+[54217]freemem:38424
+$#$#$#$cnt_num:17
+#vol_f:3616 
+$#$#$#$#buf[0] = 1 
+vol_f:3614 
+$#$#$#$#$#time:54967
+vol_f:3614 
+$#--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 51
+    freq:2412, bg_rssi:-83
+    cca: -66, -61, -56
+    tx: txq:0, ps:0, tx_stat_q:1,
+                                         tx dma:274, total tx:257, retry:48, tx lost:3, tx err:0
+    rx: frms:166, data:152
+    throughput: tx: 576.59 Kbps, rx: 26.13 Kbps
+    max gain:7
+sta:32:ec:a9:e6:9e:fb, aid:1, rssi:-34, evm:-24, tx frm type:*3, tx mcs:*5, sgi:1, freq offset:3679
+    ifidx:1, MAC:46:87:81:35:88:d8
+
+--------------------
+$#$#$#[55217]custom mem sram:5436
+[55217]freemem:38424
+vol_f:3616 
+$#$#$#$cnt_num:17
+#$#vol_f:3616 
+$#$#$#buf[0] = 1 
+$#vol_f:3614 
+$#$#$#$#$#vol_f:3614 
+$#$#$#[56217]ip:101a8c0  freemem:38300
+[56218]custom mem sram:5436
+[56218]freemem:38300
+$#vol_f:3616 
+$#$#$cnt_num:17
+#$#time:1570
+vol_f:3614 
+$#$#buf[0] = 1 
+$#$#$#vol_f:3612 
+$#$#$#$#vol_f:3614 
+$#$#[57218]custom mem sram:5436
+[57218]freemem:38424
+$#$#$#vol_f:3612 
+$#$cnt_num:17
+#$#$#vol_f:3612 
+$#buf[0] = 1 
+$#$#$#vol_f:3612 
+$#$#$#$#time:1554
+$#vol_f:3612 
+$#[58218]custom mem sram:5436
+[58218]freemem:38424
+$#$#$#vol_f:3610 
+$#$cnt_num:17
+#$#$#vol_f:3612 
+$#buf[0] = 1 
+$#$#$#$#vol_f:3612 
+$#$#$#$#vol_f:3610 
+$#[59218]custom mem sram:5436
+[59219]freemem:38240
+$#$#$#$#vol_f:3612 
+$cnt_num:17
+#$#$#time:1554
+$#buf[0] = 1 
+vol_f:3612 
+$#$#$#$#vol_f:3614 
+$#--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 53
+    freq:2412, bg_rssi:-83
+    cca: -66, -61, -56
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:1215, total tx:1211, retry:77, tx lost:0, tx err:0
+    rx: frms:138, data:138
+    throughput: tx: 2.43 Mbps, rx: 19.48 Kbps
+    max gain:7
+sta:32:ec:a9:e6:9e:fb, aid:1, rssi:-28, evm:-22, tx frm type:*3, tx mc$s:*5, sgi:1, freq offset:-129
+    ifidx:1, MAC:46:87:81:35:88:d8
+
+--------------------
+#$#$#$#[60219]custom mem sram:5436
+[60219]freemem:38240
+vol_f:3608 
+$#$#$#$#vol_f:3612 
+$cnt_num:17
+#$#$#buf[0] = 1 
+$#$#vol_f:3612 
+$#$#$#$#vol_f:3612 
+$#$#$#time:1555
+[61220]custom mem sram:5436
+[61220]freemem:38424
+$#vol_f:3612 
+$#$#$#$#$cnt_num:17
+#vol_f:3610 
+$#$#buf[0] = 1 
+$#$#vol_f:3612 
+$#$#$#$#$#vol_f:3612 
+$#$#[62220]ip:101a8c0  freemem:38424
+[62220]custom mem sram:5436
+[62221]freemem:38424
+$#$#vol_f:3612 
+$#$#$#$cnt_num:17
+#vol_f:3612 
+$#$#buf[0] = 1 
+$#time:1554
+$#$#vol_f:3612 
+$#$#$#$#vol_f:3610 
+$#$#[63221]custom mem sram:5436
+[63221]freemem:38240
+$#$#$#vol_f:3610 
+$#$#$cnt_num:17
+#$#vol_f:3612 
+$#buf[0] = 1 
+$#$#$#vol_f:3612 
+$#$#$#$#$#vol_f:3612 
+[64221]custom mem sram:5436
+[64221]freemem:38424
+$#$#time:1556
+$#$#vol_f:3612 
+$#$#$cnt_num:17
+#$#buf[0] = 1 
+$#vol_f:3612 
+$#$#$#$#vol_f:3612 
+$#--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 54
+    freq:2412, bg_rssi:-84
+    cca: -66, -61, -56
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:1340, total tx:1336, retry:76, tx lost:0, tx err:0
+    rx: frms:152, data:148
+    throughput: tx: 2.54 Mbps, rx: 21.09 Kbps
+    max gain:7
+sta:32:ec:a9:e6:9e:fb, aid:1, rssi:-27, evm:-23, tx frm type:*3, tx mcs:*5, sgi:1, freq offset:1
+    ifidx:1, MAC:46:87:81:35:88:d8
+
+--------------------
+$#$#$#[65221]custom mem sram:5436
+[65221]freemem:38424
+vol_f:3610 
+$#$#$#$#do_read:372
+cl$ose sess:2002a7b4
+close sess->close:18011834
+rtsp_closed:178
+#vol_f:3610 
+rtsp_teardown:147
+close_rtp_socket fd:7
+close_rtp_socket fd:8
+rtsp_release_event:132
+drop_conn finish
+del_session:81 had conn
+del_session session:2002A7B4
+[65528]opcode_func:148 close
+[65532]unbind_stream name:rtp-jpeg      ref:1
+[65532]unbind_stream name:record-jpeg   ref:1
+[65533]unbind_stream name:photo-jpeg    ref:1
+[65533]stream_gc_marker_timer wait gc name:jpeg 2002A890
+[65539]stream_gc_marker_timer wait gc name:photo-jpeg   2002A9B4
+[65539]stream_gc_marker_timer wait gc name:record-jpeg  2002A954
+[65540]stream_gc_marker_timer wait gc name:rtp-jpeg     2002A8F4
+vol_f:3612 
+vol_f:3616 
+[66221]custom mem sram:61440
+[66221]freemem:42308
+vol_f:3616 
+vol_f:3616 
+vol_f:3614 
+vol_f:3614 
+[67221]custom mem sram:61440
+[67221]freemem:42308
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+vol_f:3610 
+[68221]ip:101a8c0  freemem:42308
+[68221]custom mem sram:61440
+[68222]freemem:42308
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+[69222]custom mem sram:61440
+[69222]freemem:42308
+vol_f:3614 
+vol_f:3604 
+vol_f:3612 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 55
+    freq:2412, bg_rssi:-83
+    cca: -66, -61, -56
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:276, total tx:270, retry:95, tx lost:10, tx err:0
+    rx: frms:173, data:163
+    throughput: tx: 14.28 Kbps, rx: 12.34 Kbps
+    max gain:7
+sta:32:ec:a9:e6:9e:fb, aid:1, rssi:-25, evm:-22, tx frm type:*3, tx mcs:*5, sgi:1, freq offset:331
+    ifidx:1, MAC:46:87:81:35:88:d8
+
+--------------------
+vol_f:3612 
+[70222]custom mem sram:61440
+[70222]freemem:42308
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+[71105]***rx deauth:3, 32:ec:a9:e6:9e:fb
+[71106]inteface2: sta 32:ec:a9:e6:9e:fb disconnected
+[71107]lmac_bgn_del_sta: if:1, 32:ec:a9:e6:9e:fb
+[71108]user_sta_del:ff ff 40 1 0 80
+vol_f:3614 
+[71222]custom mem sram:61440
+[71222]freemem:42308
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+[72222]custom mem sram:61440
+[72222]freemem:42308
+vol_f:3614 
+vol_f:3616 
+vol_f:3616 
+vol_f:3610 
+[73222]custom mem sram:61440
+[73222]freemem:42308
+vol_f:3612 
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+[74222]ip:101a8c0  freemem:42308
+[74222]custom mem sram:61440
+[74222]freemem:42308
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 53
+    freq:2412, bg_rssi:-83
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:36, total tx:30, retry:1, tx lost:0, tx err:0
+    rx: frms:51, data:36
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3612 
+[75223]custom mem sram:61440
+[75223]freemem:42804
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+[76223]custom mem sram:61440
+[76223]freemem:42804
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+[77223]custom mem sram:61440
+[77223]freemem:42804
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+[78223]custom mem sram:61440
+[78223]freemem:42804
+vol_f:3612 
+vol_f:3614 
+vol_f:3614 
+vol_f:3614 
+[79223]custom mem sram:61440
+[79223]freemem:42804
+vol_f:3612 
+vol_f:3612 
+vol_f:3612 
+--------------------
+local:46:87:81:35:88:d8
+    !!! chip pack err !!!
+    bios:3, pack:7 
+    pwr idx: 0
+    chip-temperature: 53
+    freq:2412, bg_rssi:-82
+    cca: -70, -60, -62
+    tx: txq:0, ps:0, tx_stat_q:0,
+                                         tx dma:1, total tx:0, retry:0, tx lost:0, tx err:0
+    rx: frms:1, data:0
+    throughput: tx: 0 bps, rx: 0 bps
+    max gain:7
+--------------------
+vol_f:3612 
+[80223]ip:101a8c0  freemem:42804
+[80223]custom mem sram:61440
+[80223]freemem:42804
+vol_f:3612 
+vol_f:3614 
+vol_f:3612 
+vol_f:3610 
+[81224]custom mem sram:61440
+[81224]freemem:42804
+
+ long key power off 
+vol_f:3612

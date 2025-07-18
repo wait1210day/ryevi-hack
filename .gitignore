@@ -1,0 +1,4 @@
+venv/
+sdk/
+toolchain/
+csky-doc/
